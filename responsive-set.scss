@@ -1,0 +1,21 @@
+/*  Breakpoints */
+
+/* iPhone Portrait */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+	@import 'fixed-320';
+}
+
+/* iPhone Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	@import 'fixed-480';
+}
+
+/* iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	@import 'fixed-768';
+}
+
+/* iPad Landscape + */
+@media only screen and (min-width: 1024px) {
+	@import 'fixed-1024';
+}
